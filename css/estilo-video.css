@@ -1,0 +1,69 @@
+/* video{
+	margin: 0 auto;
+	padding: 2px;
+	width: 250px;
+	height: 250px;
+	float: left; 
+} */
+
+section{
+	width: 100%;
+	padding: 4px;
+	background: rgb(78, 47, 190);
+	border-radius: 4px;
+}
+
+.padre, .lateral{
+	width: 100%;
+	vertical-align: top;
+	display: inline-block;
+	margin: auto;
+	width: 80%;
+	background: skyblue;
+}
+
+.lateral{
+	width: 19%;
+	background: #e9dcc3;
+}
+
+.iframegalery{
+	width: 100%;
+	height: 500PX;
+
+}
+
+.iframelateral{
+	width: 100%;
+	height: 500PX;
+}
+
+.onevid, .twovid, .threevid, .fourvid{
+	width: 100%;
+	display: block;
+	margin: 1px, auto;
+	height: 130px;
+}
+
+#cajavideo{
+	width: 100%;
+	height: 130px;
+	position: relative;
+	overflow: hidden;
+}
+
+.imgvideo{
+	width: 100%;
+	height: 100px;
+}
+
+.capatransparente{
+	display: block;
+	position: absolute;
+	bottom: 0px;
+	z-index: 10;
+	background: rgba(0, 0, 0, .1);
+	width: 100%;
+	height: 160px;
+	padding: 5em;
+}
